@@ -158,6 +158,7 @@ class Searchbar(Gtk.HBox):
             #turn on wrap by default
             self.vte.search_set_wrap_around(True)
 
+
     # pylint: disable-msg=W0613
     def search_keypress(self, widget, event):
         """Handle keypress events"""
